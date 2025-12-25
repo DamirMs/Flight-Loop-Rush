@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e022b703b31e4675b776885ceb4e9a39, type: 3}
+  m_Name: GameInfoConfig
+  m_EditorClassIdentifier: 
+  gameOverDelay: 0.001
+  conditionMetDelay: 0.6
+  levelCompletedScore: 100
+  resetsInputAfterRelease: 0
+  loadingAnimationDuration: 0
+  orientationMode: 0
+  planeSpeed: 5
+  rocketsSpeeds: {x: 6.3133006, y: 7}
+  followingDurations: {x: 4.825575, y: 7.3759613}
+  rocketRotationValue: 80
+  rocketsSpawnDelay: {x: 1.4250656, y: 2.275193}
+  rocketsSpawnDecreaseValue: 0.1

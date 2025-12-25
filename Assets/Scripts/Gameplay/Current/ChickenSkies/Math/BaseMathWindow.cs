@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
-namespace Gameplay.Current
+namespace Gameplay.Current.ChickenSkies.Math
 {
     public abstract class BaseMathWindow : WindowBase
     {
@@ -15,7 +15,7 @@ namespace Gameplay.Current
         [SerializeField] protected Image timerFill;
         [SerializeField] protected TextMeshProUGUI questionText;
         [SerializeField] protected Button[] answerButtons;
-        [SerializeField] protected Text[] answerTexts;
+        [SerializeField] protected TextMeshProUGUI[] answerTexts;
 
         [Header("Timing")]
         [SerializeField] protected float startTime = 5f;
@@ -52,8 +52,8 @@ namespace Gameplay.Current
 
         protected void GenerateTask()
         {
-            int a = Random.Range(1, 10);
-            int b = Random.Range(1, 10);
+            int a = Random.Range(-10, 20);
+            int b = Random.Range(-10, 20);
 
             _correctAnswer = a + b;
             questionText.text = $"{a} + {b} = ?";
@@ -95,11 +95,11 @@ namespace Gameplay.Current
 
             try
             {
-                while (t > 0 && !_answered)
+                while (t > 0f && !_answered)
                 {
                     token.ThrowIfCancellationRequested();
 
-                    t -= Time.deltaTime;
+                    t -= Time.unscaledDeltaTime;
                     timerFill.fillAmount = Mathf.Clamp01(t / timer);
 
                     await UniTask.Yield(PlayerLoopTiming.Update, token);

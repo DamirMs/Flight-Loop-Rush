@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1041868180710",
+    "project_id": "zeusstrike123",
+    "storage_bucket": "zeusstrike123.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041868180710:android:b2e87cd410ad0750e4ff27",
+        "android_client_info": {
+          "package_name": "com.ANS.ZeusStrike"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAStvdl8z9D-60jIJaY0v-G7lEA-ORsgI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

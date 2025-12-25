@@ -1,9 +1,10 @@
 ﻿using System;
 using Cysharp.Threading.Tasks;
 using PT.Tools.Windows;
+using UnityEngine;
 using Zenject;
 
-namespace Gameplay.Current
+namespace Gameplay.Current.ChickenSkies.Math
 {
     public class GameMathWindow : BaseMathWindow
     {
@@ -17,14 +18,16 @@ namespace Gameplay.Current
             _currentTime = _currentTime <= 0 ? startTime : _currentTime;
             _currentTime *= timeMultiplier;
 
-            _windowsManager.Close(WindowTypeEnum.MathReplay).Forget();
+            _windowsManager.Close(WindowTypeEnum.GameMathReplay).Forget();
             OnSuccess?.Invoke();
+            Time.timeScale = 1;
         }
 
         protected override void OnWrong()
         {
-            _windowsManager.Close(WindowTypeEnum.MathReplay).Forget();
+            _windowsManager.Close(WindowTypeEnum.GameMathReplay).Forget();
             OnFail?.Invoke();
+            Time.timeScale = 1;
         }
     }
 }

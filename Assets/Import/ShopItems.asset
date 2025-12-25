@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68453c6525c34777904d67df04f7a6e8, type: 3}
+  m_Name: ShopItems
+  m_EditorClassIdentifier: 
+  shopItemInfos:
+  - itemEnum: 0
+    id: 0
+    sprite: {fileID: 21300000, guid: 6bb277f4741591046813a02d352cfd89, type: 3}
+    price: 0
+    isDefaultOwned: 1
+  - itemEnum: 0
+    id: 1
+    sprite: {fileID: 21300000, guid: 8cc48f04ed906004fb183a3769dad15a, type: 3}
+    price: 100
+    isDefaultOwned: 0
+  - itemEnum: 0
+    id: 2
+    sprite: {fileID: 21300000, guid: c8d99329179a0264eb9e54f179a03bce, type: 3}
+    price: 100
+    isDefaultOwned: 0
+  - itemEnum: 0
+    id: 2
+    sprite: {fileID: 21300000, guid: 5a7396f18caf2584a8976f12bf94146b, type: 3}
+    price: 100
+    isDefaultOwned: 0

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Gameplay.Current
+namespace Gameplay.Current.ChickenSkies.Math
 {
     public static class DailyMathState
     {

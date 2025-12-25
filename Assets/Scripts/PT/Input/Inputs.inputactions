@@ -1,0 +1,96 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "InGameInput",
+            "id": "fe844d7e-3f04-4167-9a6b-23a845dddb68",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Value",
+                    "id": "e5cde55c-6831-4750-ab1e-c08035f65148",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Drag",
+                    "type": "Value",
+                    "id": "6bc3a83c-ce18-457b-8b41-33cad1d45f29",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Release",
+                    "type": "Value",
+                    "id": "3432408f-f7f6-467a-b730-5b8120978392",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "faa6a2c3-7a1f-41ae-b7c1-c2fe3587f61e",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ab246cae-e13e-4708-b68a-66c3a2eb049d",
+                    "path": "<Pointer>/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78ccfa77-3f1d-4595-8518-d2b3c969db14",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cb68bdcc-e106-460c-8bea-0dcd424b5e26",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3b8cb940-d574-4370-be6a-7aa2b8b7d349",
+                    "path": "<Pointer>/press",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Release",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
