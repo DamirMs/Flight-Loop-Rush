@@ -32,7 +32,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.65, y: 0.65, z: 0.65}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 2127065250293899361}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8393791434994769226
@@ -92,10 +93,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c64fb86e9afcb1a418087389b02cb52c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7cbcffc9ce534d4d967f8005d9744e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.62, y: 2.62}
   m_AdaptiveModeThreshold: 0.5
@@ -136,7 +137,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.002866525}
-  m_Size: {x: 0.6068362, y: 0.8952033}
+  m_Size: {x: 0.25276253, y: 0.8952033}
   m_Direction: 0
 --- !u!50 &6535031096558238700
 Rigidbody2D:
@@ -165,3 +166,81 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &758019767769905692
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3661214729784664295}
+    m_Modifications:
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.487
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7697015898289541961, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+      propertyPath: m_Name
+      value: SmokeEffect
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+--- !u!4 &2127065250293899361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1657848465264106109, guid: 94090619f5dca564c98f2bb5a1c6f3e8, type: 3}
+  m_PrefabInstance: {fileID: 758019767769905692}
+  m_PrefabAsset: {fileID: 0}
